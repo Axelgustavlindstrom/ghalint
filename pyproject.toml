@@ -34,6 +34,9 @@ dev = [
     "pytest>=7.0",
 ]
 
+[project.urls]
+Repository = "https://github.com/Axelgustavlindstrom/ghalint"
+
 [project.scripts]
 ghalint = "ghalint.cli:main"
 

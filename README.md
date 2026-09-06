@@ -63,6 +63,10 @@ ghalint/
   pyproject.toml
 ```
 
+## Repository
+
+https://github.com/Axelgustavlindstrom/ghalint
+
 ## Tags / keywords
 
 `github-actions`, `ci`, `lint`, `yaml`, `developer-tools`, `cli`
