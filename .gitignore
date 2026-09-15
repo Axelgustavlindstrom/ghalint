@@ -30,3 +30,5 @@ Thumbs.db
 # Project artifacts
 *.log
 *.tmp
+.env
+.env.*
