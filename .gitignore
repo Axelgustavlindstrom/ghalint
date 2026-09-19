@@ -32,3 +32,6 @@ Thumbs.db
 *.tmp
 .env
 .env.*
+
+# CI
+.github/workflows/.DS_Store

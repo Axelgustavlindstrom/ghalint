@@ -10,9 +10,9 @@ readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.9"
 authors = [
-    {name = "Axelgustavlindstrom", email = "https://github.com/Axelgustavlindstrom"},
+    {name = "Axelgustavlindstrom", email = "292675736+Axelgustavlindstrom@users.noreply.github.com"},
 ]
-keywords = ["github-actions", "ci", "lint", "workflow"]
+keywords = ["github-actions", "ci", "lint", "workflow", "yaml"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -33,6 +33,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "pytest>=7.0",
+    "ruff>=0.4",
 ]
 
 [project.urls]
@@ -52,3 +53,6 @@ addopts = "-q"
 [tool.ruff]
 line-length = 88
 target-version = "py39"
+lint.select = ["E", "F", "W", "I"]
+lint.ignore = []
+format.skip-magic-trailing-comma = false

@@ -40,9 +40,6 @@ ghalint
 # lint a single file
 ghalint lint .github/workflows/ci.yml
 
-# strict mode
-ghalint lint .github/workflows/ --strict
-
 # json report
 ghalint lint .github/workflows/ --json
 ```
@@ -69,4 +66,4 @@ https://github.com/Axelgustavlindstrom/ghalint
 
 ## Tags / keywords
 
-`github-actions`, `ci`, `lint`, `yaml`, `developer-tools`, `cli`
+`github-actions`, `ci`, `lint`, `yaml`, `developer-tools`, `cli`, `workflow`
