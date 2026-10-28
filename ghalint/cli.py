@@ -3,10 +3,9 @@ from __future__ import annotations
 import argparse
 import json
 import os
-import sys
 from typing import List, Optional, Sequence
 
-from ghalint.lint import lint_file, lint_paths
+from ghalint.lint import lint_paths
 
 
 class _HelpArgs:
